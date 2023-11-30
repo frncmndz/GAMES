@@ -2,7 +2,7 @@
 
     {"type":"multiple","difficulty":"easy",
     "category":"General Knowledge",
-    "question":"To prevent water contamination, dispose of household chemicals or cleaning agents down the sink or toilet.",
+    "question":"To prevent water contamination, dispose household chemicals or cleaning agents down the sink or toilet.",
     "correct_answer":"Bluff",
     "incorrect_answers":["Fact"]},
 
@@ -26,7 +26,7 @@
     
     {"type":"multiple","difficulty":"easy",
     "category":"General Knowledge",
-    "question":"Dispose of household chemicals or cleaning agents in the sink or toilet. ",
+    "question":"Dispose household chemicals or cleaning agents in the sink or toilet. ",
     "correct_answer":"Bluff",
     "incorrect_answers":["Fact"]}
     
