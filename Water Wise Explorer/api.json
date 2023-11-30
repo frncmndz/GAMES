@@ -1,0 +1,35 @@
+{"response_code":0,"results":[
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"To prevent water contamination, dispose household chemicals or cleaning agents down the sink or toilet.",
+    "correct_answer":"Bluff",
+    "incorrect_answers":["Fact"]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Do not flush pills, liquid or powder medications or drugs down the toilet.",
+    "correct_answer":"Fact",
+    "incorrect_answers":["Bluff"]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Can we make polluted water be clean again?",
+    "correct_answer":"Fact",
+    "incorrect_answers":["Bluff"]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Does the population of a certain area affect the water quality?",
+    "correct_answer":"Fact",
+    "incorrect_answers":["Bluff"]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Dispose household chemicals or cleaning agents in the sink or toilet. ",
+    "correct_answer":"Bluff",
+    "incorrect_answers":["Fact"]}
+    
+
+    
+    ]}

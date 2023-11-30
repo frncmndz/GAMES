@@ -1,0 +1,35 @@
+{"response_code":0,"results":[
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"What is being described as the “contamination of water sources by substances which make the water unusable for drinking, cooking, cleaning, swimming, and other activities”",
+    "correct_answer":"Water Pollution",
+    "incorrect_answers":["Water Evaporation"]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Where does water pollution come from?",
+    "correct_answer":"Sewage and wastewater treatment",
+    "incorrect_answers":["Installing a water-efficient toilet."]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"How would you know if the water is already polluted?",
+    "correct_answer":"Smelly or Discolored Water",
+    "incorrect_answers":["Clear and free of debris"]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"What are the possible future consequences of continuous water pollution?",
+    "correct_answer":"Ecosystem Disruption",
+    "incorrect_answers":["Healthy Human Impacts"]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"How to prevent water pollution?",
+    "correct_answer":" Properly Dispose of Household Hazardous Waste",
+    "incorrect_answers":["Unrestricted use of Pesticides and Herbicides"]}
+    
+
+    
+    ]}

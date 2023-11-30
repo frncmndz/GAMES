@@ -1,0 +1,35 @@
+{"response_code":0,"results":[
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"Toxic water that cannot be drunk or used for essential purposes, may cause diseases such as?",
+    "correct_answer":"Diarrhea",
+    "incorrect_answers":["Anemia"]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"What Can You Do to Prevent Water Pollution?",
+    "correct_answer":"Reduce your plastic consumption",
+    "incorrect_answers":["Dispose of chemicals in different places"]},
+
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"What effects does water pollution have?",
+    "correct_answer":"Diminishes the water supply",
+    "incorrect_answers":["Increase the water quality supply"]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"How to improve the water storage system? (such as septic tank system and container water storage)",
+    "correct_answer":"Clean the lid and seal of your septic tank regularly.",
+    "incorrect_answers":["Store debris and algae from around it."]},
+    
+    {"type":"multiple","difficulty":"easy",
+    "category":"General Knowledge",
+    "question":"How to make the water safe to drink?",
+    "correct_answer":"Boiling the tap water",
+    "incorrect_answers":["Keep the water inside the refrigerator"]}
+    
+
+    
+    ]}
