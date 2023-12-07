@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Varela+Round&display=swap');
+
+*{
+  font-family:'Lilita One', sans-serif;
+
+}
+.game{
+  background-image: url('BG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  padding-top: 100px;
+}
+.containergame {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100rem;
+  padding: 2rem;
+  font-weight: 50;
+  margin: auto;
+  
+}
+.lvl{
+  font-size: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+#questionImage{
+  height: 30vh;
+  margin-left: 200px;
+}
+.imgcont{
+  width: 35vw;
+}
+#question{
+  width: 35vw;
+  font-weight:50px;
+  font-size: 75px;
+}
+.quesimg{
+  display: flex;
+  flex-direction: row;
+}
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 25%;
+  font-size: 2.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: rgba(110, 110, 110, 0.5);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-color:rgba(69, 197, 105, 0.7);
+  border-width: 5px;
+  margin-top: 50px;
+}
+.choicechoicecont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  border-radius: 20px;
+  transform: scale(1.05);
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #daeb56;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  flex-direction: column;
+
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+  color: #56eb5e;
+  margin-top: 0;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #65eb56;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+margin-left: 150px;
+}
+
+#progressBarFull {
+  height: 3.5rem;
+  background-color: #56eb5e;
+  width: 0%;
+
+}
+
+/* LOADER */
+#loader {
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top: 1.6rem solid #79eb56;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(54, 54, 54, 0.5);
+  border: 5px solid rgba(69, 197, 105, 0.7);
+  padding: 20px;
+  z-index: 9999;
+  animation: fadeInOut 2s ease-in-out; /* Apply animation */
+  border-radius: 50px;
+  font-size: 50px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
