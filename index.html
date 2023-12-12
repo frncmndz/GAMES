@@ -108,28 +108,28 @@ background: linear-gradient(90deg, rgba(107,105,152,1) 0%, rgba(9,80,121,1) 34%,
     <h1>Game Hub</h1>
     <p>"Step into an immersive journey through Trash Trek's Clean City Quest, dive deep into the Toxicity Tracker's Respiratory Rescuer role, and traverse the realms of the Water Wise Explorer. Uncover environmental challenges, embrace sustainability, and explore the interconnectedness of our world through these exhilarating quests!"</p>
     <div class="container">
-        <button id="trash" class="button trash-trek" onclick="game1()">Trash Trek: Clean City Quest</button>
-        <button id="toxic" class="button toxicity-tracker" onclick="game2()">Toxicity Tracker: Respiratory Rescuer</button>
-        <button id="water" class="button water-wise-explorer" onclick="game3()">Water Wise Explorer</button>
+        <button id="trash" class="button trash-trek">Trash Trek: Clean City Quest</button>
+        <button id="toxic" class="button toxicity-tracker">Toxicity Tracker: Respiratory Rescuer</button>
+        <button id="water" class="button water-wise-explorer">Water Wise Explorer</button>
     </div>
     <script>
-        let trash =document.getElementById('trash');
-        let toxic = document.getElementById('toxic');
-        let water = document.getElementById('water');
-        function game1(){
-            location.assign("https://raw.githack.com/frncmndz/GAMES/main/Trash%20Trek%20Clean%20City%20Quest/index.html");
+        document.addEventListener('DOMContentLoaded', function() {
+            let trash = document.getElementById('trash');
+            let toxic = document.getElementById('toxic');
+            let water = document.getElementById('water');
 
-        }
-        function game2(){
-        location.assign("https://raw.githack.com/frncmndz/GAMES/main/Toxicity%20Tracker%20Respiratory%20Rescuer/index.html");
+            trash.addEventListener('click', function() {
+                location.assign("https://raw.githack.com/frncmndz/GAMES/main/Trash%20Trek%20Clean%20City%20Quest/index.html");
+            });
 
-        }
-        function game3(){
-                    location.assign("https://raw.githack.com/frncmndz/GAMES/main/Water%20Wise%20Explorer/index.html");
+            toxic.addEventListener('click', function() {
+                location.assign("https://raw.githack.com/frncmndz/GAMES/main/Toxicity%20Tracker%20Respiratory%20Rescuer/index.html");
+            });
 
-        }
-
-
+            water.addEventListener('click', function() {
+                location.assign("https://raw.githack.com/frncmndz/GAMES/main/Water%20Wise%20Explorer/index.html");
+            });
+        });
     </script>
 </body>
 </html>
