@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Varela+Round&display=swap');
+body {
+    font-family: 'lilita one';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('mainbg.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .name{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 60px;
+  }
+  
+  .level-btn {
+    font-size: 18px;
+   position: absolute;
+    
+   top: 35%;
+   left: 15%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240,.5);
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 256px;
+    height: 256px;
+    
+  }
+  .level-btn2 {
+
+    font-size: 18px;
+    position: absolute;
+    
+    top: 35%;
+    left: 40%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240,.5);
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 256px;
+    height: 256px;
+    
+  }
+  .level-btn3 {
+
+    font-size: 18px;
+    position: absolute;
+    
+    top: 35%;
+    left: 65%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240,.5);
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 256px;
+    height: 256px;
+    
+  }
+
+  .lock{
+    position: absolute;
+    
+    top: 35%;
+    left: 40%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+  width: 256px;
+    height: 256px;
+    background: url('lock.png');
+    background-size: cover;
+  }
+
+  .lock2{
+    position: absolute;
+    
+    top: 35%;
+    left: 65%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+  width: 256px;
+    height: 256px;
+    background: url('lock.png');
+    background-size: cover;
+  }
+
+  
+  
+  .level-btn:hover {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .level-btn:focus {
+    outline: none;
+  }
+  .level-btn2:hover {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .level-btn2:focus {
+    outline: none;
+  }
+  .level-btn3:hover {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .level-btn3:focus {
+    outline: none;
+  }
+  
+  /* If you want to add some hover effect */
+
+  
