@@ -61,8 +61,8 @@
     {"type":"multiple","difficulty":"easy",
     "category":"General Knowledge",
     "question":"Vicks inhaler",
-    "correct_answer":"Good",
-    "incorrect_answers":["Bad"],
+    "correct_answer":"Bad",
+    "incorrect_answers":["Good"],
     "image": "dust.png"},
     
     {"type":"multiple","difficulty":"easy",
