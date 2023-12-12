@@ -47,8 +47,8 @@
     {"type":"multiple","difficulty":"easy",
     "category":"General Knowledge",
     "question":"Wood smoke",
-    "correct_answer":"Good",
-    "incorrect_answers":["Bad"],
+    "correct_answer":"Bad",
+    "incorrect_answers":["Good"],
     "image": "woodsmoke.png"},
 
     {"type":"multiple","difficulty":"easy",
