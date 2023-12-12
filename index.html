@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Varela+Round&display=swap');
+        *{
+            font-family: 'Lilita One';
+        }
+        body{
+            background: rgb(107,105,152);
+background: linear-gradient(90deg, rgba(107,105,152,1) 0%, rgba(9,80,121,1) 34%, rgba(8,101,143,1) 47%, rgba(6,130,172,1) 62%, rgba(0,212,255,1) 100%);
+        }
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 22px;
+            cursor: pointer;
+            color: black;
+            text-align: center;
+            transition: 0.3s;
+
+        }
+
+        .button:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            scale: 1.1;
+            animation: 300ms;
+        }
+
+        .trash-trek {
+            background-color: #F44336;
+            height: 256px;
+            width: 256px;
+            background: url('mainbg.png');
+            background-size: cover;
+        }
+
+
+        .toxicity-tracker {
+            background-color: #4CAF50;
+            height: 256px;
+            width: 256px;
+            background: url('mainbg2.png');
+            background-size: cover;
+        }
+
+     
+
+        .water-wise-explorer {
+            background-color: #9C27B0;
+            height: 256px;
+            width: 256px;
+            background: url('mainbg3.jpg');
+            background-size: cover;
+        }
+        
+        h1
+{
+    text-align: center;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+      font-size: 100px;
+      text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+        p{
+            text-align: center;
+            max-width: 80vw;
+            margin: auto;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Game Hub</h1>
+    <p>"Step into an immersive journey through Trash Trek's Clean City Quest, dive deep into the Toxicity Tracker's Respiratory Rescuer role, and traverse the realms of the Water Wise Explorer. Uncover environmental challenges, embrace sustainability, and explore the interconnectedness of our world through these exhilarating quests!"</p>
+    <div class="container">
+        <button id="trash" class="button trash-trek" onclick="game1()">Trash Trek: Clean City Quest</button>
+        <button id="toxic" class="button toxicity-tracker" onclick="game2()">Toxicity Tracker: Respiratory Rescuer</button>
+        <button id="water" class="button water-wise-explorer" onclick="game3()">Water Wise Explorer</button>
+    </div>
+    <script>
+        let trash =document.getElementById('trash');
+        let toxic = document.getElementById('toxic');
+        let water = document.getElementById('water');
+        function game1(){
+            window.location.assign('/Trash Trek Clean City Quest/index.html');
+
+        }
+        function game2(){
+            window.location.assign('/Toxicity Tracker Respiratory Rescuer/index.html');
+
+        }
+        function game3(){
+            window.location.assign('/Water Wise Explorer/index.html');
+
+        }
+
+
+    </script>
+</body>
+</html>
