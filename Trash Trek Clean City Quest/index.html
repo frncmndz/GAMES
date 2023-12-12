@@ -1,0 +1,381 @@
+<html>
+    <head>
+        <title>Trash Trek: Clean City Quest</title>
+        <style>
+            @font-face {
+            font-family: B04;
+            src: url("04B_30__.TTF")  format('truetype');
+            }
+            
+            body{
+                background-color: #333;
+                background: url('Untitled.jpeg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                width: 100vw;
+                position: fixed;
+            }
+            .game{
+                font-family: B04;
+                color: #6c0056;
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .trashBins img{
+                position:absolute;
+                
+                bottom: 28%;
+                left: 38%;
+                width: 20%;
+            }
+            
+            .star1{
+                position: absolute;
+                top:1.5%;
+                left: 1%;
+                position: absolute;
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+            .star2{
+                position: absolute;
+                top:1.5%;
+                left: 6%;
+                font-size: xx-large;
+                position: absolute;
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+            .star3{
+                position: absolute;
+                top:1.5%;
+                left: 11%;
+                font-size: xx-large;
+                position: absolute;
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+
+            .star10{
+                
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+           .star20{
+               
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+            .star30{
+               
+                font-size: xx-large;
+                
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 5em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+            }
+
+            .starbox{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-evenly;
+                width: 100%;
+            }
+            h3{
+                position: absolute;
+                left: 48%;
+                top: 10%;
+                font-size: xx-large;
+            }
+            
+            .trash img:hover{
+                transition: transform 300ms;
+                transform: scale(1.4);
+            }
+            .trash .img1{
+                position: absolute;
+                bottom: 5%; right: 5%;
+                width: 4%;
+            }
+            
+            .trash .img2{
+                position: absolute;
+                bottom: 15%; right: 15%;
+                width: 4%;
+            }
+            .trash .img3{
+                position: absolute;
+                bottom: 25%; right: 25%;
+                width: 4%;
+            }
+            .trash .img4{
+                position: absolute;
+                bottom: 30%; right: 35%;
+                width: 4%;
+            }
+            .trash .img5{
+                position: absolute;
+                bottom: 10%; right: 45%;
+                width: 4%;
+            }
+            .trash .img6{
+                position: absolute;
+                bottom: 10%; right: 60%;
+                width: 4%;
+            }
+
+            .trash .img7{
+                position: absolute;
+                bottom: 20%; right: 70%;
+                width: 4%;
+            }
+            .trash .img8{
+                position: absolute;
+                bottom: 27%; right: 80%;
+                width: 4%;
+            }
+            .trash .img9{
+                position: absolute;
+                bottom: 20%; right: 90%;
+                width: 4%;
+            }
+            .trash .img10{
+                position: absolute;
+                bottom: 12%; right: 20%;
+                width: 4%;
+            }
+            .trash .img11{
+                position: absolute;
+                bottom: 21%; right: 50%;
+                width: 4%;
+            }
+           
+            .trash .img12{
+                position: absolute;
+                bottom: 30%; right: 65%;
+                width: 4%;
+            }
+            .trash .img13{
+                position: absolute;
+                bottom: 8%; right: 85%;
+                width: 4%;
+            }
+            .trash .img14{
+                position: absolute;
+                bottom: 23%; right: 9%;
+                width: 4%;
+            }
+            .trash .img15{
+                position: absolute;
+                bottom: 18%; right: 40%;
+                width: 4%;
+            }
+            
+
+            .gameOver{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #3c2020;
+                height: 30%;
+                width: 30%;
+                border-radius: 20px;
+                text-align: center;
+                z-index: 2;
+            }
+            .gameOver h1{
+                margin-top: 10%;
+            }
+            .gameOver p{
+                color: aliceblue;
+                margin-top: 30%;
+                cursor: pointer;
+            }
+            .congrats{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #3c2020;
+                height: 30%;
+                width: 30%;
+                border-radius: 20px;
+                text-align: center;
+                z-index: 2;
+            }
+            
+            .congrats a{
+                color: aliceblue;
+                cursor: pointer;
+                text-decoration: none;
+            }
+           
+            h2{
+                position:absolute;
+                top: 51%;   
+                left: 39%;
+                z-index:1 ;
+            }
+            .x3{
+                position: absolute;
+                top: 5%;
+                left: 93%;
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 4em;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+            }
+            .x2{
+                position: absolute;
+                top: 5%;
+                left: 88%;
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 4em;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+            }
+            .x1{
+                position: absolute;
+                top: 5%;
+                left: 83%;
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 4em;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+            }
+            .popup {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #3c2020;
+                padding: 20px;
+                z-index: 9999;
+                animation: fadeInOut 2s ease-in-out; /* Apply animation */
+                border-radius: 50px;
+                font-size: 50px;
+                color: #6c0056;
+                text-align: center;
+                }
+                .count{
+                margin: 0;
+                padding: 0;
+                color: #6c0056;
+                text-transform: uppercase;
+                font-size: 1em;
+                -webkit-text-fill-color: #6c0056;
+                -webkit-text-stroke-width: 1px;
+                }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="game">
+                <div class="popup" id="popupMessage">
+                    <p>Sort all the Biodegradables!(Organic Materials)</p>
+                    <div><p class="count"></p></div>
+                  </div>
+                <h2>BIODEGRADABLE</h2>
+                <h1 class="x1">X</h1>
+                <h1 class="x2">X</h1>
+                <h1 class="x3">X</h1>
+                <div>
+                    <h4 class="star1">★</h4>
+                    <h4 class="star2">★</h4>
+                    <h4 class="star3">★</h4>
+                    <h3>5</h3>
+                </div>
+                <div class="trash">
+                    <img class="img1" src="">
+                    <img class="img2" src="">
+                    <img class="img3" src="">
+                    <img class="img4" src="">
+                    <img class="img5" src="">
+                    <img class="img6" src="">
+                    <img class="img7" src="">
+                    <img class="img8" src="">
+                    <img class="img9" src="">
+                    <img class="img10" src="">
+                    <img class="img11" src="">
+                    <img class="img12" src="">
+                    <img class="img13" src="">
+                    <img class="img14" src="">
+                    <img class="img15" src="">
+                    
+                </div>
+                <div class="trashBins">
+                    <img name="biodegradable"     src="assets/bin1.gif">
+                </div>
+
+                <div class="gameOver">
+                    <h1>Game Over!</h1>
+                    <p id="replayBtn">replay</p>
+                </div>
+                <div class="congrats">
+                    <h1>Congratulations!</h1>
+                    <div class="starbox">
+                    <h4 class="star10">★</h4>
+                    <h4 class="star20">★</h4>
+                    <h4 class="star30">★</h4></div>
+                    <a id="nextlvl" href="game2.html">Level 2</a>
+                </div>
+
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
