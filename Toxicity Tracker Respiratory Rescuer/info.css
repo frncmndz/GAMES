@@ -45,7 +45,7 @@ body {
   }
 
   ul {
-    list-style-type: decimal;
+    list-style-type: disc;
     padding-left: 20px;
     font-size: 40px;
     font-weight: 20;
